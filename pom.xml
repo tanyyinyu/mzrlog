@@ -161,6 +161,13 @@
         </dependency>
     </dependencies>
 
+<distributionManagement>
+    <repository>
+        <id>releases</id>
+        <name>Nexus Release Repository</name>
+        <url>http://localhost:8081/nexus/repository/maven-central/</url>
+    </repository>
+</distributionManagement>
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
         <testSourceDirectory>src/test/java</testSourceDirectory>
