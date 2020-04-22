@@ -161,18 +161,6 @@
         </dependency>
     </dependencies>
 
-<distributionManagement>
-    <repository>
-        <id>releases</id>
-        <name>Nexus Release Repository</name>
-        <url>http://47.113.112.37:8081/nexus/repository/maven-releases/</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>Nexus Snapshot Repository</name>
-        <url>http://47.113.112.37:8081/nexus/repository/maven-snapshots/</url>
-    </snapshotRepository>
-</distributionManagement>
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
         <testSourceDirectory>src/test/java</testSourceDirectory>
